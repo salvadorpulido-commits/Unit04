@@ -14,7 +14,8 @@ public class BibliotecaMain {
         ArrayList<Prestamo> prestamos = new ArrayList<>();
 
         int opcion;
-
+        
+    
         do {
             System.out.println("\n--- BIBLIOTECA ---");
             System.out.println("1. Alta libro");
@@ -119,7 +120,7 @@ public class BibliotecaMain {
             }
 
         } while (opcion != 6);
-
+        
         sc.close();
     }
 
